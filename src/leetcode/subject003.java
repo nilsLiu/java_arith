@@ -9,6 +9,8 @@ import java.util.HashMap;
  */
 public class subject003 {
 
+
+    //双指针
     public int lengthOfLongestSubstring(String s) {
         int len = s.length();
         // 当字符串长度为零时，返回值为0
