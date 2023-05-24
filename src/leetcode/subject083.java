@@ -11,7 +11,7 @@ package leetcode;
 public class subject083 {
 
     public static void main(String[] args) {
-        System.out.println(deleteDuplicates());
+
     }
 
     static class ListNode {

@@ -16,12 +16,6 @@ package leetcode;
  */
 public class subject206 {
 
-    public static void main(String[] args) {
-        ListNode listNode = new ListNode();
-        listNode.val = 1;
-        listNode.next = new ListNode(2);
-        System.out.println(reverseList(listNode));
-    }
     public static ListNode reverseList(ListNode head) {
         ListNode pre = null;
         ListNode cur = head;
@@ -38,27 +32,6 @@ public class subject206 {
         }
         return pre;
 
-
     }
-
 
 }
-
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
-
