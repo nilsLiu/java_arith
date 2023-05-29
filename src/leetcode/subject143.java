@@ -25,7 +25,7 @@ public class subject143 {
     public void reorderList(ListNode head) {
         //找到原链表的中点
         ListNode mid = middleNode(head);
-        
+
         //将原链表的右半端反转
         ListNode head2 = reverseList(mid);
 
