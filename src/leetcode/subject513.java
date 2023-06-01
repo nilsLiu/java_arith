@@ -20,12 +20,12 @@ import java.util.Queue;
  */
 public class subject513 {
     public int findBottomLeftValue(TreeNode root) {
-
-
-
+        //创建队列
         Queue<TreeNode> deque = new ArrayDeque<>();
+        //将头节点放入队列
         deque.add(root);
         TreeNode node = deque.poll().left;
+
         while (!deque.isEmpty()) {
             node = deque.poll().left;
 
